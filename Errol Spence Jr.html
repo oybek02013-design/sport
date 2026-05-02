@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errol Spence Jr</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #0284c7, #0ea5e9);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(2, 132, 199, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 8px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #e0f2fe;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #e0f2fe;
+            margin-top: 0;
+            border-bottom: 2px solid #e0f2fe;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #e0f2fe;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #0284c7;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://photo.boxingscene.com/uploads/errol-spence6_1690339847.webp" alt="Errol Spence Jr">
+        <h1>Errol Spence Jr</h1>
+        <p class="nickname">"The Truth" (Haqiqat)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">28</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">22</div>
+                <div class="label">KO g'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">3</div>
+                <div class="label">Titul</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Errol Spence Jr — amerikalik professional bokschi, 1990-yil 3-martda Long-Aylend, Nyu-Yorkda tug'ilgan. U bolaligida Dallas, Texasda voyaga yetgan. U o'zining bosimli boks uslubi va tanaga qaratilgan zarblari bilan mashhur.</p>
+            
+            <h2>Boks karyerasi</h2>
+            <p>Spence o'rta vazn (welterweight) toifasida kurash olib boradi. U ortodoks boks pozitsiyasida o'ynaydi va bosimli hujum qilish uslubiga ega. Uning professional rekordi 28 g'alaba, 1 mag'lubiyat va 0 durangni o'z ichiga oladi, shundan 22 tasi nokaut bilan.</p>
+            
+            <h2>Yutuqlar</h2>
+            <p>
+                • WBC, IBF va WBA (Super) velterveyt chempioni<br>
+                • 2012-yil London Olimpiadasida bronza medalini qo'lga kiritgan<br>
+                • Bir necha og'ir vazn toifalarida chempionlik kamarlarini qo'lga kiritgan
+            </p>
+
+            <h2>Mashhur janglar</h2>
+            <p>
+                • Mikey Garcia (2020) - IBF chempionlik uchun g'alaba<br>
+                • Danny Garcia (2020) - WBC chempioni ustidan g'alaba<br>
+                • Shawn Porter (2019) - IBF chempioni ustidan g'alaba<br>
+                • Yordenis Uzos (2022) - WBA (Super) chempioni ustidan g'alaba
+            </p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

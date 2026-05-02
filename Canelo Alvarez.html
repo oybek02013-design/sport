@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canelo Alvarez</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #16a34a, #22c55e);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(34, 197, 94, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #e0e7ff;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #e0e7ff;
+            margin-top: 0;
+            border-bottom: 2px solid #e0e7ff;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #e0e7ff;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #16a34a;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            background: #ffd700;
+            color: #1a1a2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL7fIslK_NyMSoXIW7pGaFwxrf1sBeCLeiNw&s=10" alt="Canelo Alvarez">
+        <h1>Canelo Alvarez</h1>
+        <p class="nickname">"Canelo" (Qalampir, qizil sochlari tufayli)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">62</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">39</div>
+                <div class="label">KO g'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">4</div>
+                <div class="label">Divizion chempioni</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Santos Saul Alvarez Barragán — meksikalik professional bokschi, 1990-yil 18-iyulda Gvadalahara, Xalisko, Meksikada tug'ilgan. Uning "Canelo" laqabi ispan tilida "qalampir" degan ma'noni anglatadi va bu uning qizil sochlari bilan bog'liq.</p>
+            
+            <h2>Boks uslubi</h2>
+            <p>Canelo ortodoks stansiyaga ega va uzoq muddatli strategiya bilan jang qiladi. U ajoyib qarshi zarbali uslub va mustahkam mudofaa bilan mashhur. Uning texnik ko'nikmalari va intizomi uni zamonaviy boksning eng yaxshi bokschilaridan biriga aylantirgan.</p>
+            
+            <h2>Vazn divizionlari</h2>
+            <p>Canelo to'rtta turli vazn divizionlarida chempionlik kamarlarini qo'lga kiritgan:
+            <br>• Super o'rta vazna (Super middleweight)
+            <br>• O'rta vazna (Middleweight)
+            <br>• Yengil o'rta vazna (Light middleweight)
+            <br>• Velter vazna (Welterweight)</p>
+            
+            <h2>Mashhur janglar</h2>
+            <p>
+                • Gennady Golovkin (2017/2018) - ikki marta jang, ikkalasi ham sensatsion bo'ldi<br>
+                • Sergey Kovalev (2019) - yengil og'ir vazn chempionligi uchun jang<br>
+                • Callum Smith (2020) - super o'rta vazna chempioni<br>
+                • Billy Joe Saunders (2021) - chempionlik jangi<br>
+                • Dmitry Bivol (2022) - og'ir vazn jangi<br>
+                • Jermell Charlo (2023) - to'liq chempionlik
+            </p>
+            
+            <h2>Yutuqlar</h2>
+            <p>Canelo - bitta divizionda to'liq chempion (undisputed champion) bo'lgan kam sonli bokschilardan biri. U Super o'rta vazna divizionida to'liq chempion bo'lishga muvaffaq bo'lgan. Shuningdek, u to'rt divizion chempioni va ko'plab mukofotlar sovrindori.</p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

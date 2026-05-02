@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Ortiz - Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .profile-card {
+            background: linear-gradient(145deg, #f97316, #f59e0b);
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            width: 350px;
+            margin: 20px auto;
+            box-shadow: 0 10px 30px rgba(249, 115, 22, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(249, 115, 22, 0.5);
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 8px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .profile-name {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .profile-nickname {
+            color: #fff8e1;
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .profile-info {
+            color: white;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-box {
+            background: rgba(255,255,255,0.2);
+            padding: 15px 20px;
+            border-radius: 10px;
+            color: white;
+            min-width: 80px;
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+        }
+
+        .biography {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 10px;
+            color: #333;
+            text-align: left;
+            margin: 20px 0;
+            line-height: 1.7;
+        }
+
+        .biography h3 {
+            color: #f97316;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .fights-section {
+            background: rgba(255,255,255,0.15);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .fights-section h3 {
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .fight-item {
+            color: white;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.95rem;
+        }
+
+        .fight-item:last-child {
+            border-bottom: none;
+        }
+
+        .fight-item::before {
+            content: "⚔ ";
+        }
+
+        .back-btn {
+            background: white;
+            color: #f97316;
+        }
+
+        .back-btn:hover {
+            background: #ffd700;
+            color: #1a1a2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDLw6vsui2cobeHBhng9DO4sgp5WvA54t3cUcdDs_gtSmuKIwMGlH0EMCa_VAF-IRwq7JKggEELiWJq2xncmJW1M65onudsN7t3J-oMw&s=10" 
+             alt="Victor Ortiz" class="profile-image">
+        
+        <h1 class="profile-name">Victor Ortiz</h1>
+        <p class="profile-nickname">"Vicious" laqabi</p>
+        
+        <div class="profile-info">
+            <strong>Tug'ilgan:</strong> 31-yanvar, 1987 yil<br>
+            <strong>Tug'ilgan joyi:</strong> Garden City, Kansas, AQSH<br>
+            <strong>Vazn toifasi:</strong> Velter vazn<br>
+            <strong>Stil:</strong> Ortodoks<br>
+            <strong>Mashhur:</strong> Bosimli hujum va tanani zarblash uslubi
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-box">
+                <span class="stat-number">31</span>
+                <span class="stat-label">G'alaba</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">25</span>
+                <span class="stat-label">KO</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">1</span>
+                <span class="stat-label">Titul</span>
+            </div>
+        </div>
+
+        <div class="biography">
+            <h3>Biografiya</h3>
+            <p>
+                Victor Ortiz - amerikalik professional bokschi, 1987-yil 31-yanvarda Kanzas shtatining Garden City shahrida tug'ilgan. U Kaliforniyaning Oxnard shahrida voyaga yetgan. Ortiz professional ringda 2004-yilda debyut qilgan va tez orada o'zini eng tajovuzkor va hujumkor bokschilardan biri sifatida ko'rsatdi. Uning uslubi - doimiy bosim, raqibni ring atrofida harakatga majbur qilish va tanaga zarbalar berishga asoslangan. 2011-yilda u WBC velter vazn chempioni unvonini qo'lga kiritdi va bu unvonni bir necha marta himoya qilgan.
+            </p>
+        </div>
+
+        <div class="fights-section">
+            <h3>Mashhur janglar</h3>
+            <div class="fight-item">vs Andre Berto (2 marta) - Eng mashhur raqobat</div>
+            <div class="fight-item">vs Floyd Mayweather - WBC chempionlik jangi</div>
+            <div class="fight-item">vs Josesito Lopez - WBC chempionlik jangi</div>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga</a>
+    </div>
+</body>
+</html>

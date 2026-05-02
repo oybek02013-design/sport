@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gervonta Davis - "Tank"</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-card {
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            width: 350px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 50px auto;
+            background: linear-gradient(145deg, #a855f7, #c026d3);
+            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.3);
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(168, 85, 247, 0.4);
+        }
+
+        .profile-card img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .profile-card h2 {
+            color: white;
+            font-size: 1.8rem;
+            margin: 15px 0 5px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .profile-card .nickname {
+            color: #ffd700;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 15px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .stat-item span {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .stat-item small {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        .biography {
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            text-align: left;
+            color: #333;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .fights {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            text-align: left;
+        }
+
+        .fights h4 {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+        .fights ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .fights li {
+            color: white;
+            padding: 5px 0;
+            font-size: 0.95rem;
+        }
+
+        .fights li::before {
+            content: "⚔ ";
+        }
+
+        .back-btn {
+            color: #c026d3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08YsV3HXqpvoh1l2eO0wfbVvR4hAuiLpSHg&s=10" alt="Gervonta Davis">
+            <h2>Gervonta Davis</h2>
+            <p class="nickname">"Tank"</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <span>30</span>
+                    <small>G'alaba</small>
+                </div>
+                <div class="stat-item">
+                    <span>28</span>
+                    <small>KO</small>
+                </div>
+                <div class="stat-item">
+                    <span>3</span>
+                    <small>Divizion</small>
+                </div>
+            </div>
+
+            <div class="biography">
+                <strong>Tug'ilgan:</strong> 7-noyabr 1994-yil, Baltimore, Merilend, AQSh<br><br>
+                Gervonta Davis - amerikalik professional bokschi, "Tank" laqabi bilan tanilgan. U o'rta vazn, yengil vazn va super yengil vazn toifalarida chempion bo'lgan uch marta jahon chempionidir. Unumli zarbav kuchi bilan ajralib turadi va Calvin Ford bilan birga mashq qiladi. Orthodox uslubida boks tushadi va katta nokaut kuchi bilan mashhur.
+            </div>
+
+            <div class="fights">
+                <h4>Mashhur janglar</h4>
+                <ul>
+                    <li>vs Leo Santa Cruz</li>
+                    <li>vs Ryan Garcia (kutilayotgan)</li>
+                    <li>vs Nysret Lapchiv</li>
+                </ul>
+            </div>
+
+            <a href="index.html" class="back-btn">Orqaga</a>
+        </div>
+    </div>
+</body>
+</html>

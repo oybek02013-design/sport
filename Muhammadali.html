@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ali</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #0891b2, #06b6d4);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(6, 182, 212, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #cffafe;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #cffafe;
+            margin-top: 0;
+            border-bottom: 2px solid #cffafe;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #cffafe;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #06b6d4;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://www.primerus.com/sites/default/files/2025-02/Cassius%20Clay%20%28Muhammad%20Ali%29.png" alt="Muhammad Ali">
+        <h1>Muhammad Ali</h1>
+        <p class="nickname">"The Greatest" (Eng buyigi)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">56</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">37</div>
+                <div class="label">KO g'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">3</div>
+                <div class="label">Davr chempioni</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Muhammad Ali (asl ismi Cassius Marcellus Clay Jr.) — amerikalik professional bokschi, 1942-yil 17-yanvarda Louisville, Kentuckyda tug'ilgan. U boks tarixidagi eng buyuk sportchilardan biri hisoblanadi.</p>
+            
+            <h2>Boks karyerasi</h2>
+            <p>Ali 1964, 1974 va 1978-yillarda uch marta og'ir vazn chempioni bo'lgan. Uning "Float like a butterfly, sting like a bee" (Pashshadek tutib, asaldek nish qil) nomi bilan mashhur bo'lgan uslubi boks tarixini o'zgartirdi. U ringda va ringdan tashqarida o'ziga xos shaxsiyat edi.</p>
+            
+            <h2>Mashhur janglar</h2>
+            <p>
+                • Sonny Liston (1964) - chempionlik uchun birinchi jang<br>
+                • Joe Frazier (1971) - "Jang asr" nomli uchrashuv<br>
+                • George Foreman (1974) - "O'rmon jangi"<br>
+                • Leon Spinks (1978) - uchinchi chempionlik
+            </p>
+            
+            <h2>Meros</h2>
+            <p>Ali nafaqat sportda, balki fuqarolik huquqlari va tinchlik uchun kurashda ham faol edi. U 1996-yil Atlanta Olimpiadasida mash'alkani yoqish sharafiga muyassar bo'lgan. 2016-yilda vafot etgan.</p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

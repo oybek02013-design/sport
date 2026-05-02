@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabib Nurmagomedov</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #0f5132, #198754);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(25, 135, 84, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid rgb(245, 5, 5);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #a7f3d0;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #a7f3d0;
+            margin-top: 0;
+            border-bottom: 2px solid #a7f3d0;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #a7f3d0;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #198754;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/49C4/production/_116148881_khabib_nurmagomedov_stats.png" alt="fh">
+        <h1>Khabib Nurmagomedov</h1>
+        <p class="nickname">"The Eagle" (Burgut)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">29</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">0</div>
+                <div class="label">Mag'lubiyat</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">UFC</div>
+                <div class="label">Champion</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Khabib Abdulmanapovich Nurmagomedov — Rossiyalik professional aralash jang san'ati (MMA) jangchisi, sobiq UFC yengil vazn chempioni. U 1988-yil 20-sentyabrda Makhachkala, Dogiston Respublikasida tug'ilgan.</p>
+            
+            <h2>Jang karyerasi</h2>
+            <p>Khabib professional MMA karyerasi davomida 29 ta g'alaba qozongan va hech qanday mag'lubiyat ko'rmagan. U UFC tarixidagi eng yaxshi yengil vazn chempioni hisoblanadi. Uning mashhur janglari orasida Conor McGregor, Dustin Poirier va Justin Gaethje bilan bo'lgan duellar bor.</p>
+            
+            <h2>Yutuqlar</h2>
+            <p>
+                • UFC yengil vazn chempioni (2018-2020)<br>
+                • UFC tripp kuch chempioni<br>
+                • Sambo bo'yicha Rossiya chempioni<br>
+                • 29-0 professional rekord
+            </p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

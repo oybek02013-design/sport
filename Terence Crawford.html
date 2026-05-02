@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terence Crawford</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #2563eb, #3b82f6);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(37, 99, 235, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #fcd34d;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #fcd34d;
+            margin-top: 0;
+            border-bottom: 2px solid #fcd34d;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fcd34d;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #2563eb;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            background: #ffd700;
+            color: #1a1a2e;
+        }
+        .fights-list {
+            list-style: none;
+            padding: 0;
+        }
+        .fights-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        .fights-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://static01.nyt.com/images/2023/07/30/multimedia/30boxing-folo1-zgqv/30boxing-folo1-zgqv-mediumSquareAt3X.jpg" alt="Terence Crawford">
+        <h1>Terence Crawford</h1>
+        <p class="nickname">"Bud"</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">41</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">31</div>
+                <div class="label">KO</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">4</div>
+                <div class="label">Vazn turi</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Terence Allan Crawford — amerikalik professional bokschi, taxallusi "Bud". U 1987-yil 28-sentyabrda Nebraska shtatining Omaha shahrida tug'ilgan.</p>
+            
+            <h2>Jang uslubi</h2>
+            <p>Crawford chap tarafdan boks qiladi va o'zining ko'p tomonlama va aniq zarbalari bilan mashhur. U professional karyerasi davomida yengil vazn, yengil welter vazn va welter vazn toifalarida chempion unvonlarini qo'lga kiritgan.</p>
+            
+            <h2>Professional rekord</h2>
+            <p>
+                • 41 g'alaba<br>
+                • 0 mag'lubiyat<br>
+                • 31 nokaut orqali g'alaba<br>
+                • Hozirgi rekord: 41-0-0
+            </p>
+
+            <h2>Mashhur janglar</h2>
+            <ul class="fights-list">
+                <li><strong>Errol Spence Jr.</strong> — 2023-yil iyul, ITF chempionligi uchun g'alaba</li>
+                <li><strong>Shawn Porter</strong> — 2021-yil noyabr, WBO chempionligi uchun g'alaba</li>
+                <li><strong>Kell Brook</strong> — 2020-yil noyabr, to'liq vazn chempionligi uchun g'alaba</li>
+                <li><strong>Jose Ramirez</strong> — 2021-yil may, to'liq yengil welter vazn chempionligi uchun g'alaba</li>
+            </ul>
+
+            <h2>Yutuqlar</h2>
+            <p>
+                • Ikki vazn toifasida to'liq chempion<br>
+                • 2006-yildan keyin birinchi marta to'rtta katta jahon unvonini (WBA, WBC, IBF, WBO) bir vaqtda qo'lga kiritgan bokschi<br>
+                • ITF yengil welter vazn chempioni<br>
+                • WBO welter vazn chempioni
+            </p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naoya Inoue - Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(145deg, #be123c, #e11d48);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .profile-card {
+            background: linear-gradient(145deg, #1a1a2e, #0f0f1a);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        
+        .profile-name {
+            color: #ffd700;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .profile-nickname {
+            color: #e11d48;
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-box {
+            background: linear-gradient(145deg, #be123c, #e11d48);
+            padding: 15px 20px;
+            border-radius: 12px;
+            min-width: 100px;
+        }
+        
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .section-title {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .bio-text {
+            color: #d1d5db;
+            line-height: 1.6;
+            margin: 15px 0;
+            text-align: justify;
+        }
+        
+        .fights-list {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+        }
+        
+        .fights-list li {
+            color: #e5e7eb;
+            padding: 10px;
+            margin: 5px 0;
+            background: rgba(190, 18, 60, 0.2);
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+        }
+        
+        .weight-classes {
+            color: #9ca3af;
+            font-size: 0.95rem;
+            margin: 10px 0;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            color: #be123c;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            background: #ffd700;
+            color: #1a1a2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://cdn-img.boxingnewsonline.net/uploads/content/1775766201447371260/Inoue.jpg" alt="Naoya Inoue" class="profile-image">
+        
+        <h1 class="profile-name">Naoya Inoue (井上 尚弥)</h1>
+        <p class="profile-nickname">"The Monster"</p>
+        
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-number">29</div>
+                <div class="stat-label">Gʻalaba</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">26</div>
+                <div class="stat-label">KO</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Magʻlubiyat</div>
+            </div>
+        </div>
+        
+        <p class="weight-classes">🥊 Ogʻirlik sinflari: Light Flyweight, Junior Bantamweight, Bantamweight</p>
+        
+        <h3 class="section-title">Biografiya</h3>
+        <p class="bio-text">
+            Naoya Inoue 1993-yil 10-aprelda Yaponiyaning Zama shahrida tugʻilgan. 
+            U professional bokschi boʻlib, "The Monster" laqabi bilan tanilgan. 
+            Inoue oʻng tayanch (orthodox) boks uslubiga ega va oʻta kuchli nokaut kuchiga ega. 
+            U 3 ogʻirlik divizionida jahon chempioni boʻlgan va bantamweight vazn toifasida 
+            toʻliq (undisputed) chempion boʻlgan. Uning professional rekordi 29 gʻalaba, 
+            0 magʻlubiyat va 26 nokaut hisoblanadi.
+        </p>
+        
+        <h3 class="section-title">Mashhur janglar</h3>
+        <ul class="fights-list">
+            <li>2024 - Nonito Donaire (undisputed chempionlik uchun)</li>
+            <li>2023 - Stephen Fulton (WBC va WBO chempioni)</li>
+            <li>2022 - Paul Butler (IBF va WBO chempioni)</li>
+            <li>2019 - Nonito Donaire (WBSS chempioni)</li>
+            <li>2018 - Juan Carlos Payano (WBSS 1/4 final)</li>
+        </ul>
+        
+        <a href="index.html" class="back-btn">← Orqaga</a>
+    </div>
+</body>
+</html>

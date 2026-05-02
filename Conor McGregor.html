@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conor McGregor</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #7c3aed, #8b5cf6);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(139, 92, 246, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #ede9fe;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #ede9fe;
+            margin-top: 0;
+            border-bottom: 2px solid #ede9fe;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ede9fe;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #8b5cf6;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOKOsPbE9WMa8ZO1iNNeFgoI0DWBjH8cMCwg&s" alt="Conor McGregor">
+        <h1>Conor McGregor</h1>
+        <p class="nickname">"The Notorious" ( mashhur)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">22</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">19</div>
+                <div class="label">KO g'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">2</div>
+                <div class="label">Kamarlar</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Conor Anthony McGregor — irlandiyalik professional MMA va professional bokschi, 1988-yil 14-iyulda Dublin, Irlandiyada tug'ilgan. U UFC tarixidagi eng mashhur jangchilardan biri hisoblanadi.</p>
+            
+            <h2>MMA karyerasi</h2>
+            <p>McGregor UFC tarixida ikki kamarni (yengil vazn va yarim o'rtacha vazn) bir vaqtda egallashga muvaffaq bo'lgan birinchi jangchi. Uning "Makarov" nomli chap qo'li va "Oltin cross" texnikalari juda mashhur.</p>
+            
+            <h2>Mashhur janglar</h2>
+            <p>
+                • Chad Mendes (2015) - KO bilan g'alaba<br>
+                • Jose Aldo (2015) - 13 soniyada g'alaba<br>
+                • Eddie Alvarez (2016) - chempionlik<br>
+                • Khabib Nurmagomedov (2018) - mag'lubiyat
+            </p>
+            
+            <h2>Meros</h2>
+            <p>U eng ko'p pul topgan sportchilardan biri hisoblanadi. 2018-yilda "Time" jurnalining "Eng nufuzli 100 kishi" ro'yxatiga kirdi.</p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

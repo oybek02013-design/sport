@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike Tyson</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #4338ca, #6366f1);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #e0e7ff;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #e0e7ff;
+            margin-top: 0;
+            border-bottom: 2px solid #e0e7ff;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #e0e7ff;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #6366f1;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2015%2F0911%2Fbox_a_tyson01jr__r7925_1296x729_16%2D9.jpg" alt="Mike Tyson">
+        <h1>Mike Tyson</h1>
+        <p class="nickname">"Iron Mike" (Temir Mayk)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">50</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">44</div>
+                <div class="label">KO g'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">WBC</div>
+                <div class="label">Chempion</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Michael Gerard Tyson — amerikalik professional bokschi, 1966-yil 30-iyunda Bruklin, Nyu-Yorkda tug'ilgan. U 20 yoshida eng yosh og'ir vazn chempioni bo'lish bilan tarixga kirdi.</p>
+            
+            <h2>Boks karyerasi</h2>
+            <p>Tyson 1986-yilda WBC og'ir vazn chempioni bo'ldi va keyinchalik WBA va IBF chempionlik kamarlarini ham qo'lga kiritdi. Uning "Destruct" (buzish) nomli sh漂si boks dunyosida dahshat uyg'otdi. U o'z davrida deyarli g'olib edi.</p>
+            
+            <h2>Mashhur janglar</h2>
+            <p>
+                • Trevor Berbick (1986) - eng yosh chempion<br>
+                • Larry Holmes (1988) - afsonaviy Holmes ustidan g'alaba<br>
+                • Michael Spinks (1988) - 91 soniyada g'alaba<br>
+                • Evander Holyfield (1996/1997) - "Quloq jangi"
+            </p>
+            
+            <h2>Qiziqarli faktlar</h2>
+            <p>Tyson bolaligida o'g'ri qilgan, lekin boksga kelgach, o'zini tubdan o'zgartirdi. U turn hayvonlari bo'yicha ham bilimga ega va "Jang iti" filmining prodyuseri bo'lgan. Hozirgi kunda u podkast va YouTube kanallarida faol.</p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZFvyKRzl0co?si=nx8dxjnH9gdlJME3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

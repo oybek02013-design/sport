@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Silva</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #ca8a04, #eab308);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(234, 179, 8, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #fef9c3;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #fef9c3;
+            margin-top: 0;
+            border-bottom: 2px solid #fef9c3;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fef9c3;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #ca8a04;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvZKPzCEKzHqkBiLYyfvyK35TonJFt_Pwi1g&s" alt="Anderson Silva">
+        <h1>Anderson Silva</h1>
+        <p class="nickname">"The Spider" (O'rgimchak)</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">34</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">11</div>
+                <div class="label">Mag'lubiyat</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">UFC</div>
+                <div class="label">Chempi9n</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p>Anderson Silva — braziliyalik sobiq professional MMA jangchisi, 1975-yil 11-aprelda Sao-Paulo, Braziliyada tug'ilgan. U MMA tarixidagi eng buyuk jangchi hisoblanadi.</p>
+            
+            <h2>MMA karyerasi</h2>
+            <p>Silva UFCda 16 ta ketma-ket g'alaba qozonib, tarixning eng uzun g'alaba seriyasini yaratdi. Uning tezligi, aniqligi va "Silva Style" nomi bilan mashhur texnikalari boshqalardan ajralib turadi.</p>
+            
+            <h2>Mashhur janglar</h2>
+            <p>
+                • Rich Franklin (2005) - chempionlik<br>
+                • Forrest Griffin (2008) - afsonaviy jang<br>
+                • Chael Sonnen (2010/2012) - ikki marta jang<br>
+                • Nick Diaz (2012) - chempionlik
+            </p>
+            
+            <h2>Yutuqlar</h2>
+            <p>U UFC tarixidagi eng uzoq muddatli chempion (2006-2013). Ko'pchilik uni "eng buyuk jangchi" deb hisoblaydi.</p>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>

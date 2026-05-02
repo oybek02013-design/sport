@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakur Stevenson - Professional Bokschi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .profile-container {
+            min-height: 100vh;
+            background: linear-gradient(145deg, #14b8a6, #06b6d4);
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .profile-name {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 5px;
+        }
+
+        .profile-nickname {
+            font-size: 1.1rem;
+            color: #14b8a6;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .stat-item {
+            background: linear-gradient(145deg, #14b8a6, #06b6d4);
+            padding: 15px 20px;
+            border-radius: 12px;
+            color: white;
+            min-width: 100px;
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+
+        .info-section {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .info-section h4 {
+            color: #1a1a2e;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #14b8a6;
+            padding-bottom: 5px;
+        }
+
+        .info-section p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .fights-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .fights-list li {
+            padding: 8px 0;
+            color: #555;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+
+        .fights-list li:last-child {
+            border-bottom: none;
+        }
+
+        .weight-class {
+            display: inline-block;
+            background: #1a1a2e;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .style-badge {
+            display: inline-block;
+            background: #ffd700;
+            color: #1a1a2e;
+            padding: 6px 15px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            color: #1a1a2e !important;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            background: #06b6d4;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpHVqInqcnuIxqfT42hLKWpAG1ZUuwxcugu0643xA6f9_asAfASrmT9JM_Ixv6AGgCj644OkvY6WvynJGXqp4BADHAV2DbPIeBFj1Vw&s=10" alt="Shakur Stevenson" class="profile-img">
+            
+            <h1 class="profile-name">Shakur Stevenson</h1>
+            <p class="profile-nickname">"Tattoo" yoki "Suga"</p>
+            
+            <span class="weight-class">Super Featherweight</span>
+            <span class="style-badge">Southpaw</span>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">22</span>
+                    <span class="stat-label">G'alaba</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">KO</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Chempon</span>
+                </div>
+            </div>
+            
+            <div class="info-section">
+                <h4>Biografiya</h4>
+                <p>Shakur Stevenson (1997-yil 4-iyunda tug'ilgan) — amerikalik professional bokschi. U Nyu-Jersi shtatining Nyuark shahrida tug'ilgan. Stevenson 2016-yil Rio-de-Janeyro Olimpiadasida kumush medal sovrindori hisoblanadi. U WBC super featherweight chempioni unvoniga ega va professional karyerasida 22 ta g'alaba va 0 ta mag'lubiyat ko'rsatgan. Stevenson o'zining a'lo darajadagi mudofaa ko'nikmalari, tezligi va southpaw stili bilan mashhur.</p>
+            </div>
+            
+            <div class="info-section">
+                <h4>Mashhur janglar</h4>
+                <ul class="fights-list">
+                    <li>Oscar Valdez bilan jang</li>
+                    <li>Jamel Herring bilan jang</li>
+                    <li>Joe Diaz Jr bilan jang</li>
+                </ul>
+            </div>
+            
+            <a href="index.html" class="back-btn" style="background: white; color: #1a1a2e;">Orqaga qaytish</a>
+        </div>
+    </div>
+</body>
+</html>

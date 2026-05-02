@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasyl Lomachenko</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .profile-card {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #2563eb, #1d4ed8);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(37, 99, 235, 0.4);
+            text-align: center;
+        }
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 8px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .profile-card h1 {
+            color: white;
+            margin: 20px 0 10px;
+            font-size: 2.5rem;
+        }
+        .profile-card .nickname {
+            color: #fef08a;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .info-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: left;
+            color: white;
+        }
+        .info-section h2 {
+            color: #fef08a;
+            margin-top: 0;
+            border-bottom: 2px solid #fef08a;
+            padding-bottom: 10px;
+        }
+        .info-section p {
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.15);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .stat-item .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fef08a;
+        }
+        .stat-item .label {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: white;
+            color: #1d4ed8;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            background: #ffd700;
+            color: #1d4ed8;
+        }
+        .notable-fights {
+            text-align: left;
+            margin-top: 15px;
+        }
+        .notable-fights li {
+            margin: 10px 0;
+            padding-left: 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Vasyl_Lomachenko_2018.jpg/800px-Vasyl_Lomachenko_2018.jpg" alt="Vasyl Lomachenko">
+        <h1>Vasyl Lomachenko</h1>
+        <p class="nickname">"Loma"</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="number">18</div>
+                <div class="label">G'alaba</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">12</div>
+                <div class="label">KO</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">3</div>
+                <div class="label">Divizion</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Biografiya</h2>
+            <p><strong>To'liq ismi:</strong> Vasyl Vasylovych Lomachenko (Василь Ломаченко)</p>
+            <p>Tug'ilgan: 17-fevral, 1988-yil, Bilhorod-Dnistrovskyi, Ukraina SSR (hozirgi Ukraina)</p>
+            <p><strong>Stansiyasi:</strong> Southpaw (chap qo'l oldinda), istisnoiy oyoq texnikasi, qo'l tezligi va himoya ko'nikmalari</p>
+            
+            <h2>Jang karyerasi</h2>
+            <p>Vasyl Lomachenko — ukrainalik professional bokschi, uch vazn toifasida jahon chempioni. U professional ringdagi rekordi 18 g'alaba, 3 mag'lubiyat va 0 durang (12 KO).</p>
+            <p>U 2008 va 2012-yillarda Olimpiya oltin medalini qo'lga kiritgan. Lomachenko faqat 3 jang ichida jahon chempionligini qo'lga kiritdi — bu rekord barcha vaqtlardagi eng tez natija hisoblanadi.</p>
+            
+            <h2>Yutuqlar</h2>
+            <p>
+                • 3 vazn toifasida jahon chempioni<br>
+                • 2008 va 2012-yilgi Olimpiya oltin medalisti<br>
+                • 3 jangda jahon chempionligini qo'lga kiritgan eng tez bokschi<br>
+                • Featherweight, super featherweight va lightweight chempioni
+            </p>
+            
+            <h2>Mashhur janglar</h2>
+            <ul class="notable-fights">
+                <li><strong>vs Luke Campbell</strong> (2019) — WBC/WBA/WBO lightweight chempionliklari uchun</li>
+                <li><strong>vs Jose Pedraza</strong> (2018) — WBA/WBO lightweight chempionliklari uchun</li>
+                <li><strong>vs Jorge Linares</strong> (2018) — WBA lightweight chempionligi uchun</li>
+                <li><strong>vs Jose Pedraza</strong> (2018) — WBA/WBO lightweight chempionliklari uchun</li>
+                <li><strong>vs Orlando Salido</strong> (2014) — professional karyerasidagi birinchi mag'lubiyat</li>
+                <li><strong>vs Oleksandr Usyk</strong> (2018) — professional karyerasidagi ikkinchi mag'lubiyat</li>
+            </ul>
+        </div>
+
+        <a href="index.html" class="back-btn">Orqaga qaytish</a>
+    </div>
+</body>
+</html>
